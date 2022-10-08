@@ -1,0 +1,138 @@
+  // $(document).ready(function () {
+        
+    //     $('#select_form').change(function (){
+    //         $('.data').hide();
+    //         $('#'+$(this).val()).fadeIn(400);
+    //     }).change();
+
+    //     $("#dob").datepicker({ dateFormat: "dd/mm/yy" ,changeMonth  :true , changeYear  :true });
+    //     $("#date_consultation").datepicker({ dateFormat: "dd/mm/yy"  ,changeMonth  :true , changeYear  :true });
+
+    //     $('.autosave').change(function () { 
+            
+            
+            
+    //             var gender = [];
+    //             var mediclaim = [];
+    //             var physician = [];
+            
+            
+
+
+    //             $(".gender").each(function(){
+    //             if($(this).is(":checked")){
+    //                 gender.push($(this).val());
+    //             }
+    //             });
+
+    //             $(".mediclaim").each(function(){
+    //             if($(this).is(":checked")){
+    //                 mediclaim.push($(this).val());
+    //             }
+    //             });
+
+    //             $(".physician").each(function(){
+    //             if($(this).is(":checked")){
+    //                 physician.push($(this).val());
+    //             }
+    //             });
+
+
+    //             gender = gender.toString();
+    //             mediclaim = mediclaim.toString();
+    //             physician = physician.toString();
+
+
+    //             var name_company = $('#name_company').val();
+    //         var toll_number = $('#toll_number').val();  
+        
+    //         var toll_fax = $('#toll_fax').val();  
+            
+    //         var name_patient = $('#name_patient').val();  
+        
+    //         var age = $('#age').val();  
+    //         var dob = $('#dob').val();  
+    //         var contact_patient = $('#contact_patient').val();  
+    //         var contact_relative = $('#contact_relative').val();  
+    //         var insured_number = $('#insured_number').val();  
+    //         var employeeid = $('#employeeid').val();  
+    //         var policy_number = $('#policy_number').val();  
+        
+    //         var company_name = $('#company_name').val();  
+        
+    //         var name_physician = $('#name_physician').val();  
+    //         var contact_physician = $('#contact_physician').val();  
+    //         var name_doctor = $('#name_doctor').val();  
+    //         var contact_doctor = $('#contact_doctor').val();  
+    //         var nature_illness = $('#nature_illness').val();  
+    //         var relevant = $('#relevant').val();  
+    //         var duration = $('#duration').val();  
+    //         var date_consultation = $('#date_consultation').val();  
+    //         var past_history = $('#past_history').val();  
+    //         var diagnosis = $('#diagnosis').val();  
+    //         var icd_code = $('#icd_code').val();  
+    //         var line_treatment = $('#line_treatment').val();  
+    //         var invest_medical = $('#invest_medical').val();  
+    //         var route_drug = $('#route_drug').val();  
+    //         var name_surgery = $('#name_surgery').val();  
+    //         var icd_pcs = $('#icd_pcs').val();  
+    //         var other_treatment = $('#other_treatment').val();  
+    //         var injury_occur = $('#injury_occur').val();  
+    //         var post_id = $('#post_id').val(); 
+            
+            
+
+    //                 $.ajax({  
+    //                     url:"birla_data.php",  
+    //                     method:"POST",  
+    //                     data:{
+    //                         name_company : name_company,
+    //                         toll_number:toll_number,
+    //                         toll_fax:toll_fax, 
+    //                         name_patient:name_patient,
+    //                         gender:gender, 
+    //                         age:age,
+    //                         dob:dob, 
+    //                         contact_patient:contact_patient,
+    //                         contact_relative:contact_relative, 
+    //                         employeeid : employeeid,
+    //                         insured_number:insured_number,
+    //                         policy_number:policy_number, 
+    //                         mediclaim:mediclaim,
+    //                         company_name:company_name, 
+    //                         physician:physician,
+    //                         name_physician:name_physician, 
+    //                         contact_physician:contact_physician,
+    //                         name_doctor:name_doctor, 
+    //                         contact_doctor:contact_doctor,
+    //                         nature_illness:nature_illness, 
+    //                         relevant:relevant,
+    //                         duration:duration, 
+    //                         date_consultation:date_consultation,
+    //                         past_history:past_history, 
+    //                         diagnosis:diagnosis,
+    //                         icd_code:icd_code,
+    //                         line_treatment:line_treatment,
+    //                         invest_medical:invest_medical, 
+    //                         route_drug:route_drug,
+    //                         name_surgery:name_surgery, 
+    //                         icd_pcs:icd_pcs,
+    //                         other_treatment:other_treatment, 
+    //                         injury_occur:injury_occur,
+                            
+    //                         post_id:post_id
+    //                     },  
+    //                     dataType:"text",  
+    //                     success:function(data)  
+    //                     {  
+    //                         if(data != '')  
+    //                         {  
+    //                             $('#post_id').val(data);  
+    //                             document.getElementById("refreshpdf").contentDocument.location.reload(true);
+    //                         }  
+                            
+    //                     }  
+    //                 });  
+        
+    //             });
+    // });
